@@ -1,2 +1,7 @@
-<h1> <%= @questions %> </h1>
-<h1> <%= @coach_answers %> </h2>
+<h1>You said : </h1>
+<h2> <%= @questions %> </h2>
+
+<h1> The coach said : </h1>
+<h2> <%= @coach_answers %> </h2>
+
+<%= link_to "Could you say that again.", ask_path %>
